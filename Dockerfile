@@ -1,6 +1,6 @@
 FROM ruby:2.1
+MAINTAINER Marian Zange <marian@crashpad.io>
 
-ENV NPM_CONFIG_LOGLEVEL info
 ENV NODE_VERSION 4.1.1
 
 # gpg keys listed at https://github.com/nodejs/node
